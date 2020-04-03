@@ -11,7 +11,7 @@ public class Ques11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","/home/shivam/Desktop/Chrome Driver/chromedriver_linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/ayushi/Documents/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.automationtesting.in/Register.html");
 		System.out.println(driver.findElement(By.id("Button1")).isEnabled());
